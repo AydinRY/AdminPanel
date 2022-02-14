@@ -1,0 +1,19 @@
+@model BlogImages
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="row">
+  <div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">@Model.Title</h4>
+        <p>
+          @Html.Raw(Model.Subtitle)
+        </p>
+        <img src="~/img/@Model.Image" alt="image" class="profile-pic">
+      </div>
+    </div>
+  </div>
+</div>
