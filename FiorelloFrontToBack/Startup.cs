@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using HomeWork.Areas.AdminPanel.Data;
 using HomeWork.DataLayerAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -17,10 +19,12 @@ namespace HomeWork
     public class Startup
     {
         private readonly IConfiguration _configuration;
+        private readonly IWebHostEnvironment _environment;
 
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment environment)
         {
             _configuration = configuration;
+            _environment = environment;
         }
 
         public void ConfigureServices(IServiceCollection services)
@@ -33,6 +37,7 @@ namespace HomeWork
             });
             
             services.AddMvc().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
+            Constants.ImageFolderPath = Path.Combine(_environment.WebRootPath, "img");
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

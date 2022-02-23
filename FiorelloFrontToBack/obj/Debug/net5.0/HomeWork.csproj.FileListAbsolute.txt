@@ -297,3 +297,8 @@
 /Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/Blog/Index.cshtml.g.cs
 /Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/Blog/Details.cshtml.g.cs
 /Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/Blog/Create.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Index.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Create.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Update.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Delete.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Details.cshtml.g.cs
