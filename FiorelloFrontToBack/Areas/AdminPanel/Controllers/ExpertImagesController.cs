@@ -142,7 +142,7 @@ namespace HomeWork.Areas.AdminPanel.Controllers
             if (existExpertImage == null)
                 return NotFound();
 
-            var path = Path.Combine(Constants.ImageFolderPath, existExpertImage.Name);
+            var path = Path.Combine(Constants.ImageFolderPath, existExpertImage.Image);
             if (System.IO.File.Exists(path))
             {
                 System.IO.File.Delete(path);
