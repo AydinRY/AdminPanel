@@ -1,6 +1,6 @@
 using System.Linq;
 using System.Threading.Tasks;
-using HomeWork.DataLayerAccess;
+using HomeWork.DataAccessLayer;
 using HomeWork.Models;
 using HomeWork.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;

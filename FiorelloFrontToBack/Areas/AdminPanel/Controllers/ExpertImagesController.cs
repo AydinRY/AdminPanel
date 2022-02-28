@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using HomeWork.Areas.AdminPanel.Data;
-using HomeWork.DataLayerAccess;
+using HomeWork.DataAccessLayer;
 using HomeWork.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;

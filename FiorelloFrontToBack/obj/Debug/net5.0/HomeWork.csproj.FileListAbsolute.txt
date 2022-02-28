@@ -302,3 +302,10 @@
 /Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Update.cshtml.g.cs
 /Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Delete.cshtml.g.cs
 /Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Areas/AdminPanel/Views/ExpertImages/Details.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs
+/Users/aydinyusubov/Desktop/HomeWorks/BackEnd/FiorellaFrontToBack-main/FiorelloFrontToBack/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
