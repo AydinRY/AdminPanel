@@ -1,0 +1,24 @@
+@using Microsoft.AspNetCore.Identity
+@model List<IdentityRole>
+
+@{
+    ViewData["Title"] = "ChangeRole";
+}
+<h4>Change Role</h4>
+<form method="post">
+    <select class="form-select" name="newRole" id="newRole">
+        @foreach (var role in Model)
+        {
+            if (role.Name == ViewBag.CurrentRole)
+            {
+                <option value="@role.Name" selected>@role.Name</option>
+            }
+            else
+            {
+                <option value="@role.Name">@role.Name</option>
+            }
+        }
+    </select>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -7,5 +7,7 @@ namespace HomeWork.Models
     {
         [Required]
         public string Fullname { get; set; }
+        
+        public bool IsActive { get; set; }
     }
 }

@@ -1,0 +1,59 @@
+@model System.Collections.Generic.List<HomeWork.ViewModel.UserViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Blogs</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>FullName</th>
+                            <th>UserName</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>IsActive</th>
+                            <th>Setting</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Fullname
+                                </td>
+                                <td>
+                                    @item.Username
+                                </td>
+                                <td>@item.Email</td>
+                                <td>@item.Role</td>
+                                <td>@item.IsActive</td>
+                                <td>
+                                    @if (item.IsActive)
+                                    {
+                                        <a class="btn btn-danger" asp-controller="User" asp-action="Activate" asp-route-id="@item.Id">DeActivate</a>
+
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-success" asp-controller="User" asp-action="Activate" asp-route-id="@item.Id">Activate</a>
+
+                                    }
+                                    <a class="btn btn-warning" asp-controller="User" asp-action="ChangeRole" asp-route-id="@item.Id">ChangeRole</a>
+                                    <a class="btn btn-danger" asp-controller="User" asp-action="ChangePassword" asp-route-id="@item.Id">ChangePassword</a>
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
